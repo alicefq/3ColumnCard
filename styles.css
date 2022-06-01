@@ -1,0 +1,26 @@
+root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --neutral-white: hsla(0, 0%, 100%, 0.75);
+    --light-grey: hsl(0, 0%, 95%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+.column-container {
+    border: 1px solid red;
+}
+.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid blue;
+}
