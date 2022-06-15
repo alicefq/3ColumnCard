@@ -79,14 +79,35 @@ button {
   border: hsl(31, 77%, 52%);
 }
 
+.learn-sedans:hover {
+  color: var(--neutral-white);
+  background-color: var(--bright-orange);
+  border: 2px solid var(--neutral-white);
+  cursor: pointer;
+}
+
 .learn-suvs {
   color: var(--dark-cyan);
   border: var(--dark-cyan);
 }
 
+.learn-suvs:hover {
+  color: var(--neutral-white);
+  background-color: var(--dark-cyan);
+  border: 2px solid var(--neutral-white);
+  cursor: pointer;
+}
+
 .learn-luxury {
   color: var(--very-dark-cyan);
   border: var(--very-dark-cyan);
+}
+
+.learn-luxury:hover {
+  color: var(--neutral-white);
+  background-color: var(--very-dark-cyan);
+  border: 2px solid var(--neutral-white);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 900px) {
@@ -120,24 +141,4 @@ button {
     border-bottom-left-radius: 10px;
   }
 
-  .learn-sedans:hover {
-    color: var(--neutral-white);
-    background-color: var(--bright-orange);
-    border: 2px solid var(--neutral-white);
-    cursor: pointer;
-  }
-
-  .learn-suvs:hover {
-    color: var(--neutral-white);
-    background-color: var(--dark-cyan);
-    border: 2px solid var(--neutral-white);
-    cursor: pointer;
-  }
-  
-  .learn-luxury:hover {
-    color: var(--neutral-white);
-    background-color: var(--very-dark-cyan);
-    border: 2px solid var(--neutral-white);
-    cursor: pointer;
-  }
 }
