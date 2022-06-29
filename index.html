@@ -13,20 +13,49 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="./styles.css">
+  <!-- font 1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
 </head>
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <main>
+    <div class="columns">
+  <div class="column-container column-sedans">
+    <picture class="icon">
+      <img src="./icon-sedans.svg" alt="sedan icon">
+    </picture>
+    <h1 class="car-type">Sedans</h1>
+      <p class="car-description">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+    or on your next road trip.
+      </p>
+      <button class="learn-sedans" src="#">Learn more</button>
+  </div>
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
+  <div class="column-container column-suvs">
+    <picture class="icon">
+      <img src="./icon-suvs.svg" alt="suv icon">
+    </picture>
+    <h1 class="car-type">SUVs</h1>
+      <p class="car-description">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+      and off-road adventures.
+      </p>
+      <button class="learn-suvs"  src="#">Learn more</button>
+  </div>
 
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
+  <div class="column-container column-luxury">
+    <picture class="icon">
+      <img src="./icon-luxury.svg" alt="luxury icon">
+    </picture>
+    <h1 class="car-type">Luxury</h1>
+      <p class="car-description">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+    rental and arrive in style.
+      </p>
+      <button class="learn-luxury"  src="#">Learn more</button>
+      </div>
+      </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
