@@ -46,8 +46,6 @@ button {
   grid-template-rows: 3 (1fr);
   grid-template-columns: 1fr;
   display: grid;
-  /* align-items: center;
-    justify-content: center; */
   margin: 10%;
 }
 
